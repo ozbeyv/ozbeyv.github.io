@@ -1,0 +1,109 @@
+---
+layout: default
+refactor: true
+---
+<h3 style="margin-bottom: 0px;">SUPPORTED PROJECTS</h3>
+
+<style>
+  a[href]:hover {
+    text-decoration: underline;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  /* Divider styling */
+  hr {
+    margin: 5px 0 20px;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+  .content {
+    font-size: calc(1em - 1pt);
+    margin: 0;
+    line-height: 1.8;
+  }
+
+  .project-container {
+    margin-bottom: 15px;
+  }
+
+  .project-container p {
+    margin: 0;
+    line-height: 1.8;
+  }
+
+  .project-container {
+    list-style: none;
+    padding-left: 25px;
+    position: relative;
+  }
+
+  .project-container::before {
+    content: '•';
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    transform: translateY(-50%);
+    line-height: 1.8;
+  }
+  
+  .project-title {
+    display: flex;
+    align-items: flex-start; /* Aligns the title to the top of the cell */
+    position: relative; /* Allows absolute positioning of the year */
+    margin-bottom: 5px; /* Adds more space between the title and the subsequent content */
+  }
+
+  .project-title strong {
+    flex-grow: 1; /* Allows the title to grow and take up remaining space */
+    margin-right: 20px; /* Adds space between the title and the year */
+    max-width: 600px; /* Set a max-width to ensure titles do not push the year out of alignment */
+    overflow-wrap: break-word; /* Allows long words to break and prevent overflow */
+  }  
+</style>
+
+<hr>
+
+<div class="content">
+  <div class="project-container">
+    <p class="project-title">
+      <strong>PROPEL-Pozitif Dayanıklı Ped Alanları (2023 - 2026)</strong>
+    </p>
+    <p>Project Supported by the Scientific and Technological Research Council of Türkiye, 122N696, ENPED</p>
+    <p><a href="https://orcid.org/0000-0003-0338-791X">Hande Demirel</a> (Executive)</p>
+  </div>
+  
+    <div class="project-container">
+    <p class="project-title">
+      <strong>Building Information Model Based Fire Evacuation Simulation, (2021 - 2024)</strong>
+    </p>
+    <p>Project Supported by the Scientific and Technological Research Council of Türkiye, 121Y099, 1001</p>
+    <p><a href="https://orcid.org/0000-0003-0338-791X">Hande Demirel</a> (Executive)</p>
+  </div>
+  
+    <div class="project-container">
+    <p class="project-title">
+      <strong
+        >Production of High-Definition Maps (HD Maps) for Istanbul Technical University Ayazağa Campus Digital Road
+        Infrastructure, (2021 - 2023)</strong>
+    </p>
+    <p>Project Supported by the Istanbul Technical University Scientific Research Projects Coordination Unit, 43340, GRP</p>
+    <p><a href="https://orcid.org/0000-0001-6805-8768">Mustafa Yanalak</a> (Executive)</p>
+  </div>
+
+    <div class="project-container">
+    <p class="project-title">
+      <strong
+        >Effects of Cooperative Vehicle Dynamics in Traffic Flow Modeling: Simulation and Control, (2021 - 2023)</strong>
+    </p>
+    <p>Project Supported by the Scientific and Technological Research Council of Türkiye, 120M576, 1001</p>
+    <p><a href="https://orcid.org/0000-0002-7001-4489">Hilmi Berk Çelikoğlu</a> (Executive)</p>
+  </div>
+</div>
